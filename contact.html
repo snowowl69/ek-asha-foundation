@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — Ek Asha Foundation</title>
+    <meta name="description" content="Get in touch with Ek Asha Foundation. Visit our office in Kaithal, call us, or send us a message.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><span class="logo-monogram">EA</span></span>
+                <div>
+                    <span class="logo-text">Ek Asha</span>
+                    <span class="logo-sub">Foundation</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#causes">Our Causes</a></li>
+                <li><a href="index.html#impact">Impact</a></li>
+                <li><a href="index.html#team">Team</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="donate.html" class="btn btn-donate-nav">Donate Now</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1><i class="fas fa-envelope"></i> Contact Us</h1>
+        <p>We'd love to hear from you. Reach out anytime.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Left: Contact Info -->
+                <div class="contact-info-card">
+                    <h2>Get In Touch</h2>
+                    <p>Whether you want to donate, volunteer, partner, or just learn more about our work — we're here for you.</p>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Office Address</h4>
+                            <p>SCO 28-29, Keshav Market, Near New Bus Stand, Kaithal, Haryana</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Phone</h4>
+                            <a href="tel:+919215000448">+91 92150 00448</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Email</h4>
+                            <a href="mailto:ekashafoundation.adm@gmail.com">ekashafoundation.adm@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Working Hours</h4>
+                            <p>Monday – Saturday: 10:00 AM – 6:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Registration Details</h4>
+                            <p>NGO ID: HR/2023/0335273<br>Reg. No: 2168 | Sub-Registrar, Kaithal</p>
+                        </div>
+                    </div>
+
+                    <!-- Map -->
+                    <div class="contact-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.5!2d76.4!3d29.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sKaithal%2C+Haryana!5e0!3m2!1sen!2sin!4v1"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Ek Asha Foundation Location">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Right: Contact Form -->
+                <div class="contact-form-card">
+                    <h2>Send Us a Message</h2>
+
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName">Your Name *</label>
+                            <input type="text" id="contactName" name="name" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactEmail">Your Email *</label>
+                            <input type="email" id="contactEmail" name="email" placeholder="Enter your email address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactPhone">Phone Number</label>
+                            <input type="tel" id="contactPhone" name="phone" placeholder="Enter your phone number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactSubject">Subject *</label>
+                            <select id="contactSubject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="donation">Donation Inquiry</option>
+                                <option value="volunteer">Volunteer</option>
+                                <option value="partnership">Partnership / Collaboration</option>
+                                <option value="programs">Program Information</option>
+                                <option value="media">Media / Press</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage">Your Message *</label>
+                            <textarea id="contactMessage" name="message" placeholder="Tell us how we can help you or how you'd like to help us..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; justify-content: center;">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+
+                        <p class="form-note">
+                            <i class="fas fa-shield-alt"></i> We respect your privacy. Your information will not be shared with third parties.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Ways to Connect -->
+    <section class="section" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Connect</span>
+                <h2>Other Ways to <span class="highlight">Reach Us</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="mv-grid">
+                <div class="mv-card">
+                    <div class="mv-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h3>Donate</h3>
+                    <p>Support our cause financially. Every contribution makes a difference in someone's life.</p>
+                    <a href="donate.html" class="btn btn-primary" style="margin-top: 15px;">Donate Now</a>
+                </div>
+                <div class="mv-card">
+                    <div class="mv-icon"><i class="fas fa-users"></i></div>
+                    <h3>Volunteer</h3>
+                    <p>Join our team of changemakers. Give your time, skills, and energy to uplift communities.</p>
+                    <a href="mailto:ekashafoundation.adm@gmail.com" class="btn btn-outline" style="margin-top: 15px;">Join Us</a>
+                </div>
+                <div class="mv-card">
+                    <div class="mv-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Partner With Us</h3>
+                    <p>Are you a business or organization? Let's collaborate to create larger impact together.</p>
+                    <a href="mailto:ekashafoundation.adm@gmail.com" class="btn btn-outline" style="margin-top: 15px;">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-icon"><span class="logo-monogram">EA</span></span>
+                        <div>
+                            <span class="logo-text">Ek Asha</span>
+                            <span class="logo-sub">Foundation</span>
+                        </div>
+                    </div>
+                    <p>A registered non-government trust working towards creating lasting social impact through education, health, and empowerment.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#causes">Our Causes</a></li>
+                        <li><a href="index.html#impact">Our Impact</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Focus Areas</h4>
+                    <ul>
+                        <li><a href="index.html#causes">Education & Literacy</a></li>
+                        <li><a href="index.html#causes">Health & Welfare</a></li>
+                        <li><a href="index.html#causes">Women's Empowerment</a></li>
+                        <li><a href="index.html#causes">Environment</a></li>
+                        <li><a href="index.html#causes">Skill Development</a></li>
+                        <li><a href="index.html#causes">Child Welfare</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>SCO 28-29, Keshav Market, Near New Bus Stand, Kaithal, Haryana</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+919215000448">+91 92150 00448</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:ekashafoundation.adm@gmail.com">ekashafoundation.adm@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2024 Ek Asha Foundation. All Rights Reserved.</p>
+                    <p>NGO ID: HR/2023/0335273 | Reg. No: 2168 | Registered with Sub-Registrar, Kaithal</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top visible" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
